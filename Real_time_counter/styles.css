@@ -1,0 +1,42 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Textarea Styling */
+#text-input {
+  width: 80%;
+  max-width: 400px;
+  height: 120px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+#text-input:focus {
+  border-color: #007bff;
+}
+
+/* Character Count Styling */
+#char-count {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Optional: Red warning when near limit */
+.warning {
+  color: red;
+  font-weight: bold;
+}
